@@ -9,7 +9,28 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // MARK: Background Color
+            Color.background
+                .ignoresSafeArea()
+            
+            // MARK: Background Image
+            Image("Background")
+                .resizable()
+                .ignoresSafeArea()
+            
+            // MARK: House Image
+            Image("House")
+                .frame(maxHeight: .infinity, alignment: .top)
+                .padding(.top, 257)
+            
+            VStack {
+                Text("Montreal")
+                    .font(.largeTitle)
+                
+                Spacer()
+            }
+        }
     }
 }
 
