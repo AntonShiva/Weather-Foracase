@@ -14,6 +14,8 @@
 		2D87E9F22AD4713C00BAEE93 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87E9F12AD4713C00BAEE93 /* Extensions.swift */; };
 		2D87E9F42AD4745100BAEE93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87E9F32AD4745100BAEE93 /* HomeView.swift */; };
 		2D8F5FAB2AD555090093F1AF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F5FAA2AD555090093F1AF /* TabBar.swift */; };
+		2D991A432AD582210012BDDD /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D991A422AD582210012BDDD /* Shapes.swift */; };
+		2DDFFC942AD595170071A4D3 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 2DDFFC932AD595170071A4D3 /* BottomSheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		2D87E9F12AD4713C00BAEE93 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2D87E9F32AD4745100BAEE93 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2D8F5FAA2AD555090093F1AF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2D991A422AD582210012BDDD /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDFFC942AD595170071A4D3 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				2D87E9F12AD4713C00BAEE93 /* Extensions.swift */,
+				2D991A422AD582210012BDDD /* Shapes.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -148,6 +153,9 @@
 			dependencies = (
 			);
 			name = "Weather Foracase°";
+			packageProductDependencies = (
+				2DDFFC932AD595170071A4D3 /* BottomSheet */,
+			);
 			productName = "Weather Foracase°";
 			productReference = 2D87E9D92AD469F000BAEE93 /* Weather Foracase°.app */;
 			productType = "com.apple.product-type.application";
@@ -176,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 2D87E9D02AD469F000BAEE93;
+			packageReferences = (
+				2DDFFC922AD595170071A4D3 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = 2D87E9DA2AD469F000BAEE93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -207,6 +218,7 @@
 				2D87E9F22AD4713C00BAEE93 /* Extensions.swift in Sources */,
 				2D87E9DD2AD469F000BAEE93 /* Weather_Foracase_App.swift in Sources */,
 				2D8F5FAB2AD555090093F1AF /* TabBar.swift in Sources */,
+				2D991A432AD582210012BDDD /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DDFFC922AD595170071A4D3 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			requirement = {
+				kind = exactVersion;
+				version = 1.4.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DDFFC932AD595170071A4D3 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DDFFC922AD595170071A4D3 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D87E9D12AD469F000BAEE93 /* Project object */;
 }
