@@ -21,6 +21,16 @@ struct TabBar: View {
                     Image(systemName: "mappin.and.ellipse")
                         .frame(width: 44, height: 44)
                 }
+                
+                Spacer()
+                
+                // MARK: Navigation Button
+                NavigationLink {
+                    
+                } label: {
+                    Image(systemName: "list.star")
+                        .frame(width: 44, height: 44)
+                }
             }
         }
         .frame(maxHeight:  .infinity, alignment: .bottom)
