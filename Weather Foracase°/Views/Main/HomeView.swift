@@ -24,16 +24,36 @@ struct HomeView: View {
                 .frame(maxHeight: .infinity, alignment: .top)
                 .padding(.top, 257)
             
-            VStack {
+            // MARK: Current Weather
+            VStack(spacing: -10) {
                 Text("Montreal")
                     .font(.largeTitle)
                 
+                VStack {
+//                    Text("95°" + "\n" + "Mostly Clear")
+                    Text("19°")
+                        .font(.system(size: 96, weight: .thin))
+                        .foregroundColor(.primary)
+                    +
+                    Text("\n ")
+                    +
+                    Text("Mostly Clear")
+                        .font(.title3.weight(.semibold))
+                        .foregroundColor(.secondary)
+                    
+                    Text("H:24°   L:18°")
+                        .font(.title3.weight(.semibold))
+                }
+                
+                
                 Spacer()
             }
+            .padding(.top, 51)
         }
     }
 }
 
 #Preview {
     HomeView()
+        .preferredColorScheme(.dark)
 }
