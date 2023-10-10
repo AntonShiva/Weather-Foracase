@@ -13,8 +13,18 @@ struct TabBar: View {
     
     var body: some View {
         ZStack {
-            Text("Tab Bar")
+            HStack {
+                // MARK: Expand Button
+                Button {
+                    action()
+                } label: {
+                    Image(systemName: "mappin.and.ellipse")
+                        .frame(width: 44, height: 44)
+                }
+            }
         }
+        .frame(maxHeight:  .infinity, alignment: .bottom)
+        .ignoresSafeArea()
     }
 }
 
