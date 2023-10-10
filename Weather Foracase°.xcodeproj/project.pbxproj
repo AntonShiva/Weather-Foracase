@@ -13,6 +13,7 @@
 		2D87E9E42AD469F100BAEE93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D87E9E32AD469F100BAEE93 /* Preview Assets.xcassets */; };
 		2D87E9F22AD4713C00BAEE93 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87E9F12AD4713C00BAEE93 /* Extensions.swift */; };
 		2D87E9F42AD4745100BAEE93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87E9F32AD4745100BAEE93 /* HomeView.swift */; };
+		2D8F5FAB2AD555090093F1AF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F5FAA2AD555090093F1AF /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2D87E9E32AD469F100BAEE93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D87E9F12AD4713C00BAEE93 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2D87E9F32AD4745100BAEE93 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2D8F5FAA2AD555090093F1AF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		2D87E9EF2AD46F9E00BAEE93 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				2D8F5FAA2AD555090093F1AF /* TabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				2D87E9F42AD4745100BAEE93 /* HomeView.swift in Sources */,
 				2D87E9F22AD4713C00BAEE93 /* Extensions.swift in Sources */,
 				2D87E9DD2AD469F000BAEE93 /* Weather_Foracase_App.swift in Sources */,
+				2D8F5FAB2AD555090093F1AF /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
