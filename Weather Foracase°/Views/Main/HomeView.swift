@@ -49,7 +49,7 @@ struct HomeView: View {
                         .offset(y: -bottomSheetTranslationProrated * imageOffset)
                     
                     // MARK: Current Weather
-                    VStack(spacing: -10) {
+                    VStack(spacing: -10 * (1 - bottomSheetTranslationProrated)) {
                         Text("Montreal")
                             .font(.largeTitle)
                         
@@ -64,6 +64,7 @@ struct HomeView: View {
                         Spacer()
                     }
                     .padding(.top, 51)
+                    .offset(y: -bottomSheetTranslationProrated * 46)
                     
                     // MARK: Bottom Sheet
                     BottomSheetView(position: $bottomSheetPosition) {
@@ -79,6 +80,7 @@ struct HomeView: View {
                     TabBar(action: {
                         bottomSheetPosition = .top
                     })
+                    .offset(y: bottomSheetTranslationProrated * 115)
                 }
             }
             .navigationBarHidden(true)
