@@ -16,6 +16,7 @@
 		2D8F5FAB2AD555090093F1AF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F5FAA2AD555090093F1AF /* TabBar.swift */; };
 		2D991A432AD582210012BDDD /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D991A422AD582210012BDDD /* Shapes.swift */; };
 		2DA91D772AD5BD200062C98E /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA91D762AD5BD200062C98E /* ForecastView.swift */; };
+		2DA9DF382AD687490055E5E4 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9DF372AD687490055E5E4 /* Blur.swift */; };
 		2DDFFC942AD595170071A4D3 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 2DDFFC932AD595170071A4D3 /* BottomSheet */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		2D8F5FAA2AD555090093F1AF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		2D991A422AD582210012BDDD /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		2DA91D762AD5BD200062C98E /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		2DA9DF372AD687490055E5E4 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		2D87E9ED2AD46F8100BAEE93 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2DA9DF372AD687490055E5E4 /* Blur.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				2D87E9DF2AD469F000BAEE93 /* ContentView.swift in Sources */,
 				2D87E9F42AD4745100BAEE93 /* HomeView.swift in Sources */,
+				2DA9DF382AD687490055E5E4 /* Blur.swift in Sources */,
 				2D87E9F22AD4713C00BAEE93 /* Extensions.swift in Sources */,
 				2D87E9DD2AD469F000BAEE93 /* Weather_Foracase_App.swift in Sources */,
 				2DA91D772AD5BD200062C98E /* ForecastView.swift in Sources */,
