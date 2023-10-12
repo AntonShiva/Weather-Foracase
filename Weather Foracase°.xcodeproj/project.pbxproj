@@ -15,6 +15,7 @@
 		2D87E9F22AD4713C00BAEE93 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87E9F12AD4713C00BAEE93 /* Extensions.swift */; };
 		2D87E9F42AD4745100BAEE93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87E9F32AD4745100BAEE93 /* HomeView.swift */; };
 		2D8F5FAB2AD555090093F1AF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F5FAA2AD555090093F1AF /* TabBar.swift */; };
+		2D95EBAC2AD7DB3000C0934E /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EBAB2AD7DB3000C0934E /* ForecastModel.swift */; };
 		2D991A432AD582210012BDDD /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D991A422AD582210012BDDD /* Shapes.swift */; };
 		2DA91D772AD5BD200062C98E /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA91D762AD5BD200062C98E /* ForecastView.swift */; };
 		2DA9DF382AD687490055E5E4 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9DF372AD687490055E5E4 /* Blur.swift */; };
@@ -31,6 +32,7 @@
 		2D87E9F12AD4713C00BAEE93 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2D87E9F32AD4745100BAEE93 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2D8F5FAA2AD555090093F1AF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2D95EBAB2AD7DB3000C0934E /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 		2D991A422AD582210012BDDD /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		2DA91D762AD5BD200062C98E /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		2DA9DF372AD687490055E5E4 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		2D87E9EB2AD46F2400BAEE93 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2D95EBAB2AD7DB3000C0934E /* ForecastModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				2D87E9DD2AD469F000BAEE93 /* Weather_Foracase_App.swift in Sources */,
 				2DA91D772AD5BD200062C98E /* ForecastView.swift in Sources */,
 				2D8F5FAB2AD555090093F1AF /* TabBar.swift in Sources */,
+				2D95EBAC2AD7DB3000C0934E /* ForecastModel.swift in Sources */,
 				2D991A432AD582210012BDDD /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

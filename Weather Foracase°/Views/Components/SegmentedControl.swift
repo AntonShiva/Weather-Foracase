@@ -14,14 +14,19 @@ struct SegmentedControl: View {
             // MARK: Segmented Buttons
             HStack {
                 Button {
-                    selection = 0
+                    withAnimation(.easeInOut(duration: 0.5)){
+                        selection = 0
+                    }
+                    
                 } label: {
                     Text("Hourly Forecast")
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
                 
                 Button {
-                    selection = 1
+                    withAnimation(.easeInOut(duration: 0.5)){
+                        selection = 1
+                    }
                 } label: {
                     Text("Weekly Forecast")
                 }
@@ -44,7 +49,7 @@ struct SegmentedControl: View {
                             .background(Color.underline)
                         .blendMode(.overlay)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxWidth: .infinity, alignment: selection == 0 ? .leading : .trailing)
                     .offset(y: -1)
                 }
         }
