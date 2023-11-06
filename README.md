@@ -18,3 +18,7 @@ _________________________
 ![WhatsApp Image 2023-11-05 at 20 59 07 (2)](https://github.com/AntonShiva/Weather-Foracase-/assets/133210791/123a26a8-f79d-4ff4-9122-a1597269d083)
 
 ![WhatsApp Image 2023-11-05 at 20 59 05](https://github.com/AntonShiva/Weather-Foracase-/assets/133210791/458e3d40-bfc4-44f1-a5d2-7de78911246c)
+
+# Установка
+
+Нужно будет подгрузить в Xcode - BottomSheet который можно найти на гитхабе github.com/Wouter125/BottomSheet ВЕРСИЯ 1.4.5 более поздняие версии не будут работать!
